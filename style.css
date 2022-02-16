@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 120%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-items{
+    width: 50%;
+    height: 95vh;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.header{
+    color: aqua;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.form_item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form_item input{
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.form_item label{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+#btnSubmit{
+    padding: 8px 16px;
+    border: none;
+}
+
+#btnSubmit:hover{
+    background-color: darkgrey;
+}
+
+.cart-header h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 8px;
+}
+
+.cart-box{
+    width: 100%;
+}
+
+.cart-header{
+    text-align: center;
+}
+
+.cart-table{
+    width: 100%;
+    
+}
+
+.cart-table table{
+    width: 40%;
+    border:3px;
+    margin-top: 32px;
+}
+
+
+th,td{
+    text-align: center;
+    padding: 9px;
+    border: solid black;
+}
+
+#btnPrint{
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 30px;
+}
+#btnPrint:hover{
+    background-color: grey;
+}

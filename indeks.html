@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuitansi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-items">
+            <div class="header">
+                <h1>Kuitansi Cetak</h1>
+                <hr>
+            </div>
+            
+            <div class="form_box">
+                <div class="form_item">
+                    <label for="">Name</label>
+                    <input id="nama" type="text" placeholder="Masukan nama">
+                </div>
+                <div class="form_item">
+                    <label for="">Barang</label>
+                    <input id="barang" type="text" placeholder="Masukan barang">
+                </div>
+                <div  class="form_item">
+                    <label for="">Harga</label>
+                    <input id="harga" type="number" placeholder="Harga barang">
+                </div>
+                <div class="form_item">
+                    <button id="btnSubmit">Submit</button>
+                </div>
+                <hr>                
+            </div>
+            <div class="cart-box">
+                <div class="cart-header">
+                    <h3>Carts :</h3>
+                    <span id="namaCart"></span>
+                </div>
+                <div class="cart-table">
+                    <table border="1" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nama</th>
+                                <th>Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tBody">
+                            <!-- <tr>
+                                <td>1</td>
+                                <td>Kopi</td>
+                                <td>Rp.10000</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="submit-print">
+                <button id="btnPrint">print</button>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
